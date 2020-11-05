@@ -28,7 +28,7 @@ Tambem foi utilizado as bibliotecas materialize, react-flip-move e react-countup
 # navegando ate o diretorio da aplicacao e acessando o diretorio backend
 $ cd .{project_directory}/backend/
 
-# instalando os modulos do nodeJS com yarn ou npm
+# instalando as dependencias do nodeJS com yarn ou npm
 $ yarn
 ou
 $ npm
@@ -42,7 +42,7 @@ $ yarn start
 # navegando ate o diretorio da aplicacao e acessando o diretorio backend
 $ cd .{project_directory}/frontend/
 
-# instalando os modulos do nodeJS com yarn ou npm
+# instalando as dependencias do ReactJS com yarn ou npm
 $ yarn
 ou
 $ npm
