@@ -1,54 +1,53 @@
-<p align="center">
-  <a href="https://reactjs.org/">
-    <img alt="ReactJS" src="https://img.shields.io/static/v1?color=blue&label=React&message=JS&?style=plastic&logo=React">
-  </a>
+<div align="center">
+  <h1>Simulating Votes</h1>
+  <img alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 
-  <a href="https://www.linkedin.com/in/jeffersonsjunior/">
-    <img alt="Made by jefferson1104" src="https://img.shields.io/badge/made%20by-jefferson1104-blue">
-  </a>
+  <img alt="Node" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
-</p>
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+</div>
 
+# About this project
+An API with Node.js that simulates a vote, the front-end made in React.js renders the position of the candidates according to the votes, in this project several concepts were used such as monitoring with setInterval, react hooks for state management with useState and effects with useEffect, functional components, props and children among others.
 
-# ReactJS Vote Simulation
-Criei uma api com nodeJS que simula uma votacao, o frontend feito em reactJS exibe quem esta ganhando, quem esta em segundo lugar e em terceiro lugar, neste projeto foi utilizado varios conceitos como por exemplo monitoramento com setInterval, react hooks para gerencimento de estados com useState e efeitos com useEffect, functional components,props e children entre outros.
+The materialize, react-flip-move and react-countup libraries were also used.
 
-Tambem foi utilizado as bibliotecas materialize, react-flip-move e react-countup.
+# How to run this project
+```bash
+  # Clone this repository
+  $ git clone https://github.com/jefferson1104/simulatingVotes-reactjs.git
+```
 
+### Run back-end (API)
+```bash
+# Access directory back-end of project
+$ cd simulatingVotes-reactjs/backend
+$ code . 
 
+# Install all dependencies
+$ yarn
+
+# Run this application
+$ yarn start
+
+# Open app at http://localhost:8080
+```
+
+### Run front-end (WEB)
+```bash
+# Access directory front-end of project
+$ cd simulatingVotes-reactjs/frontend
+$ code . 
+
+# Install all dependencies
+$ yarn
+
+# Run this application
+$ yarn start
+
+# Open app at http://localhost:3000
+```
 # screenshots 
 <img alt="react-votes" src="./frontend/public/screenshot.png">
-
-
-# Como executar este projeto?
-
-#### execute o Backend
-```
-# navegando ate o diretorio da aplicacao e acessando o diretorio backend
-$ cd .{project_directory}/backend/
-
-# instalando as dependencias do nodeJS com yarn ou npm
-$ yarn
-ou
-$ npm
-
-# executando backend da aplicacao http://localhost:8080
-$ yarn start
-```
-
-#### execute o FrontEnd
-```
-# navegando ate o diretorio da aplicacao e acessando o diretorio backend
-$ cd .{project_directory}/frontend/
-
-# instalando as dependencias do ReactJS com yarn ou npm
-$ yarn
-ou
-$ npm
-
-# executando frontend da aplicacao http://localhost:3000
-$ yarn start
-```
 
 
